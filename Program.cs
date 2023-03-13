@@ -17,3 +17,14 @@ void FirstArray(string[] array, string[] array2)
         }
     }
 }
+
+void SecondArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"[{array[i]}] ");
+    }
+    Console.WriteLine();
+}
+FirstArray(array, array2);
+SecondArray(array2);
